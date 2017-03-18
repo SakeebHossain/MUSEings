@@ -6,7 +6,9 @@
 package com.choosemuse.example.libmuse;
 
 import java.io.File;
+import java.io.Serializable;
 import java.lang.ref.WeakReference;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,7 +40,9 @@ import com.choosemuse.libmuse.ResultLevel;
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.ListFragment;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
@@ -80,7 +84,10 @@ import android.support.v4.content.ContextCompat;
  */
 public class MainActivity extends Activity implements OnClickListener {
 
-    List<String> dataLog = new ArrayList();
+//    StringBuilder dataLog = new StringBuilder();
+    List<Float> dataLog = new ArrayList<>();
+    ArrayList<String> dataLog1 = new ArrayList<>();
+
 
     /**
      * Tag used for logging purposes.
@@ -88,6 +95,7 @@ public class MainActivity extends Activity implements OnClickListener {
     private final String TAG = "TestLibMuseAndroid";
 
     /**
+     * The MuseManager is how you detect Muse headbands and receive notifications
      * The MuseManager is how you detect Muse headbands and receive notifications
      * when the list of available headbands changes.
      */
@@ -291,7 +299,21 @@ public class MainActivity extends Activity implements OnClickListener {
             if (muse != null) {
                 dataTransmission = !dataTransmission;
                 muse.enableDataTransmission(dataTransmission);
+
+
             }
+        } else if (v.getId() == R.id.view_graph) {
+
+            // The user has pressed the "Disconnect" button.
+            // Disconnect from the selected Muse.
+            float[] floats = new float[dataLog.size()];
+            for (int i = 0; i < dataLog.size(); i++) {
+                floats[i] = dataLog.get(i);
+            }
+
+            Intent goToNextActivity = new Intent(getApplicationContext(), SimpleXYPlotActivity.class);
+            goToNextActivity.putExtra("dataLog",floats);
+            MainActivity.this.startActivity(goToNextActivity);
         }
     }
 
@@ -491,6 +513,8 @@ public class MainActivity extends Activity implements OnClickListener {
         disconnectButton.setOnClickListener(this);
         Button pauseButton = (Button) findViewById(R.id.pause);
         pauseButton.setOnClickListener(this);
+        Button viewGraphButton = (Button) findViewById(R.id.view_graph);
+        viewGraphButton.setOnClickListener(this);
 
         spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
@@ -555,9 +579,10 @@ public class MainActivity extends Activity implements OnClickListener {
         TextView elem1 = (TextView)findViewById(R.id.elem1);
         elem1.setText(String.format("%6.2f", alphaBuffer[0]));
 
-        dataLog.add(elem1.getText().toString());
+        dataLog.add(Float.valueOf(elem1.getText().toString()));
         TextView version = (TextView)findViewById(R.id.version);
         version.setText(dataLog.toString());
+
 
         TextView elem2 = (TextView)findViewById(R.id.elem2);
         elem2.setText(String.format("%6.2f", alphaBuffer[1]));
