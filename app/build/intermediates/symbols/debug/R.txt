@@ -143,10 +143,12 @@ int id absolute_from_top 0x7f0a0016
 int id acc_x 0x7f0a002f
 int id acc_y 0x7f0a0030
 int id acc_z 0x7f0a0031
-int id action_settings 0x7f0a003a
+int id action_settings 0x7f0a003d
 int id bar 0x7f0a0021
 int id bottom 0x7f0a001f
 int id bottom_middle 0x7f0a0003
+int id button1 0x7f0a0039
+int id button2 0x7f0a003a
 int id candlestick 0x7f0a0022
 int id center 0x7f0a0004
 int id con_status 0x7f0a002a
@@ -174,7 +176,8 @@ int id ninety_degrees 0x7f0a001a
 int id none 0x7f0a001b
 int id one_hundred_eighty_degrees 0x7f0a001c
 int id pause 0x7f0a0037
-int id plot 0x7f0a0039
+int id play 0x7f0a003c
+int id plot 0x7f0a003b
 int id refresh 0x7f0a0027
 int id relative 0x7f0a000e
 int id relative_from_bottom 0x7f0a0017

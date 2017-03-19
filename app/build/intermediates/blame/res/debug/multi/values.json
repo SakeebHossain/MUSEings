@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -797,13 +797,13 @@
                     "endOffset": 15422
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 89,
+                        "startOffset": 92,
                         "endColumn": 57,
-                        "endOffset": 142
+                        "endOffset": 145
                     }
                 }
             },
@@ -816,13 +816,13 @@
                     "endOffset": 15478
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 147,
+                        "startOffset": 151,
                         "endColumn": 55,
-                        "endOffset": 198
+                        "endOffset": 202
                     }
                 }
             },
@@ -835,7 +835,7 @@
                     "endOffset": 15532
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -854,13 +854,13 @@
                     "endOffset": 15585
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 165,
+                        "startOffset": 158,
                         "endColumn": 52,
-                        "endOffset": 213
+                        "endOffset": 206
                     }
                 }
             },
@@ -869,17 +869,17 @@
                     "startLine": 227,
                     "startColumn": 4,
                     "startOffset": 15590,
-                    "endColumn": 55,
-                    "endOffset": 15641
+                    "endColumn": 43,
+                    "endOffset": 15629
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 55,
-                        "endOffset": 107
+                        "startOffset": 59,
+                        "endColumn": 43,
+                        "endOffset": 98
                     }
                 }
             },
@@ -887,18 +887,18 @@
                 "to": {
                     "startLine": 228,
                     "startColumn": 4,
-                    "startOffset": 15646,
+                    "startOffset": 15634,
                     "endColumn": 51,
-                    "endOffset": 15693
+                    "endOffset": 15681
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 638,
+                        "startOffset": 641,
                         "endColumn": 51,
-                        "endOffset": 685
+                        "endOffset": 688
                     }
                 }
             },
@@ -906,18 +906,18 @@
                 "to": {
                     "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 15698,
+                    "startOffset": 15686,
                     "endColumn": 43,
-                    "endOffset": 15737
+                    "endOffset": 15725
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 218,
+                        "startOffset": 212,
                         "endColumn": 43,
-                        "endOffset": 257
+                        "endOffset": 251
                     }
                 }
             },
@@ -925,18 +925,18 @@
                 "to": {
                     "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 15742,
+                    "startOffset": 15730,
                     "endColumn": 49,
-                    "endOffset": 15787
+                    "endOffset": 15775
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 316,
+                        "startOffset": 312,
                         "endColumn": 49,
-                        "endOffset": 361
+                        "endOffset": 357
                     }
                 }
             },
@@ -944,18 +944,18 @@
                 "to": {
                     "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 15792,
+                    "startOffset": 15780,
                     "endColumn": 37,
-                    "endOffset": 15825
+                    "endOffset": 15813
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 794,
+                        "startOffset": 800,
                         "endColumn": 37,
-                        "endOffset": 827
+                        "endOffset": 833
                     }
                 }
             },
@@ -963,18 +963,18 @@
                 "to": {
                     "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 15830,
+                    "startOffset": 15818,
                     "endColumn": 41,
-                    "endOffset": 15867
+                    "endOffset": 15855
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 451,
+                        "startOffset": 450,
                         "endColumn": 41,
-                        "endOffset": 488
+                        "endOffset": 487
                     }
                 }
             },
@@ -982,18 +982,18 @@
                 "to": {
                     "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 15872,
+                    "startOffset": 15860,
                     "endColumn": 52,
-                    "endOffset": 15920
+                    "endOffset": 15908
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 112,
+                        "startOffset": 104,
                         "endColumn": 52,
-                        "endOffset": 160
+                        "endOffset": 152
                     }
                 }
             },
@@ -1001,18 +1001,18 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 15925,
+                    "startOffset": 15913,
                     "endColumn": 40,
-                    "endOffset": 15961
+                    "endOffset": 15949
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 410,
+                        "startOffset": 408,
                         "endColumn": 40,
-                        "endOffset": 446
+                        "endOffset": 444
                     }
                 }
             },
@@ -1020,18 +1020,18 @@
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 15966,
+                    "startOffset": 15954,
                     "endColumn": 56,
-                    "endOffset": 16018
+                    "endOffset": 16006
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 690,
+                        "startOffset": 694,
                         "endColumn": 56,
-                        "endOffset": 742
+                        "endOffset": 746
                     }
                 }
             },
@@ -1039,18 +1039,18 @@
                 "to": {
                     "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 16023,
+                    "startOffset": 16011,
                     "endColumn": 53,
-                    "endOffset": 16072
+                    "endOffset": 16060
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 832,
+                        "startOffset": 839,
                         "endColumn": 53,
-                        "endOffset": 881
+                        "endOffset": 888
                     }
                 }
             },
@@ -1058,18 +1058,18 @@
                 "to": {
                     "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 16077,
+                    "startOffset": 16065,
                     "endColumn": 46,
-                    "endOffset": 16119
+                    "endOffset": 16107
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 747,
+                        "startOffset": 752,
                         "endColumn": 46,
-                        "endOffset": 789
+                        "endOffset": 794
                     }
                 }
             },
@@ -1077,18 +1077,18 @@
                 "to": {
                     "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 16124,
+                    "startOffset": 16112,
                     "endColumn": 241,
-                    "endOffset": 16361
+                    "endOffset": 16349
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 966,
+                        "startOffset": 976,
                         "endColumn": 241,
-                        "endOffset": 1203
+                        "endOffset": 1213
                     }
                 }
             },
@@ -1096,18 +1096,18 @@
                 "to": {
                     "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 16366,
+                    "startOffset": 16354,
                     "endColumn": 78,
-                    "endOffset": 16440
+                    "endOffset": 16428
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 887,
+                        "startOffset": 896,
                         "endColumn": 78,
-                        "endOffset": 961
+                        "endOffset": 970
                     }
                 }
             },
@@ -1115,18 +1115,18 @@
                 "to": {
                     "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 16445,
+                    "startOffset": 16433,
                     "endColumn": 69,
-                    "endOffset": 16510
+                    "endOffset": 16498
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1208,
+                        "startOffset": 1219,
                         "endColumn": 69,
-                        "endOffset": 1273
+                        "endOffset": 1284
                     }
                 }
             },
@@ -1134,18 +1134,18 @@
                 "to": {
                     "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 16515,
+                    "startOffset": 16503,
                     "endColumn": 43,
-                    "endOffset": 16554
+                    "endOffset": 16542
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 366,
+                        "startOffset": 363,
                         "endColumn": 43,
-                        "endOffset": 405
+                        "endOffset": 402
                     }
                 }
             },
@@ -1153,18 +1153,18 @@
                 "to": {
                     "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 16559,
+                    "startOffset": 16547,
                     "endColumn": 53,
-                    "endOffset": 16608
+                    "endOffset": 16596
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 262,
+                        "startOffset": 257,
                         "endColumn": 53,
-                        "endOffset": 311
+                        "endOffset": 306
                     }
                 }
             },
@@ -1172,18 +1172,18 @@
                 "to": {
                     "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 16613,
+                    "startOffset": 16601,
                     "endColumn": 45,
-                    "endOffset": 16654
+                    "endOffset": 16642
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 592,
+                        "startOffset": 594,
                         "endColumn": 45,
-                        "endOffset": 633
+                        "endOffset": 635
                     }
                 }
             },
@@ -1191,18 +1191,18 @@
                 "to": {
                     "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 16659,
+                    "startOffset": 16647,
                     "endColumn": 44,
-                    "endOffset": 16699
+                    "endOffset": 16687
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 547,
+                        "startOffset": 548,
                         "endColumn": 44,
-                        "endOffset": 587
+                        "endOffset": 588
                     }
                 }
             },
@@ -1210,10 +1210,10 @@
                 "to": {
                     "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 16704,
+                    "startOffset": 16692,
                     "endLine": 284,
                     "endColumn": 12,
-                    "endOffset": 18710
+                    "endOffset": 18698
                 },
                 "from": {
                     "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
@@ -1231,10 +1231,10 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 18715,
+                    "startOffset": 18703,
                     "endLine": 302,
                     "endColumn": 12,
-                    "endOffset": 19788
+                    "endOffset": 19776
                 },
                 "from": {
                     "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
@@ -1252,10 +1252,10 @@
                 "to": {
                     "startLine": 303,
                     "startColumn": 4,
-                    "startOffset": 19793,
+                    "startOffset": 19781,
                     "endLine": 320,
                     "endColumn": 12,
-                    "endOffset": 20875
+                    "endOffset": 20863
                 },
                 "from": {
                     "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
@@ -1273,20 +1273,20 @@
                 "to": {
                     "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 20880,
+                    "startOffset": 20868,
                     "endLine": 327,
                     "endColumn": 12,
-                    "endOffset": 21166
+                    "endOffset": 21154
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 186,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 472
+                        "endOffset": 484
                     }
                 }
             },
@@ -1294,20 +1294,20 @@
                 "to": {
                     "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 21171,
+                    "startOffset": 21159,
                     "endLine": 330,
                     "endColumn": 12,
-                    "endOffset": 21326
+                    "endOffset": 21314
                 },
                 "from": {
-                    "file": "C:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 510,
+                        "startOffset": 525,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 665
+                        "endOffset": 682
                     }
                 }
             },
@@ -1315,10 +1315,10 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 21331,
+                    "startOffset": 21319,
                     "endLine": 348,
                     "endColumn": 12,
-                    "endOffset": 22203
+                    "endOffset": 22191
                 },
                 "from": {
                     "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
@@ -1336,10 +1336,10 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 22208,
+                    "startOffset": 22196,
                     "endLine": 355,
                     "endColumn": 12,
-                    "endOffset": 22511
+                    "endOffset": 22499
                 },
                 "from": {
                     "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
@@ -1357,10 +1357,10 @@
                 "to": {
                     "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 22516,
+                    "startOffset": 22504,
                     "endLine": 362,
                     "endColumn": 12,
-                    "endOffset": 22880
+                    "endOffset": 22868
                 },
                 "from": {
                     "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
@@ -1378,10 +1378,10 @@
                 "to": {
                     "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 22885,
+                    "startOffset": 22873,
                     "endLine": 369,
                     "endColumn": 12,
-                    "endOffset": 23250
+                    "endOffset": 23238
                 },
                 "from": {
                     "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",

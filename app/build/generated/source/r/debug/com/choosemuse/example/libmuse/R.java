@@ -1418,10 +1418,12 @@ containing a value of this type.
         public static final int acc_x=0x7f0a002f;
         public static final int acc_y=0x7f0a0030;
         public static final int acc_z=0x7f0a0031;
-        public static final int action_settings=0x7f0a003a;
+        public static final int action_settings=0x7f0a003d;
         public static final int bar=0x7f0a0021;
         public static final int bottom=0x7f0a001f;
         public static final int bottom_middle=0x7f0a0003;
+        public static final int button1=0x7f0a0039;
+        public static final int button2=0x7f0a003a;
         public static final int candlestick=0x7f0a0022;
         public static final int center=0x7f0a0004;
         public static final int con_status=0x7f0a002a;
@@ -1449,7 +1451,8 @@ containing a value of this type.
         public static final int none=0x7f0a001b;
         public static final int one_hundred_eighty_degrees=0x7f0a001c;
         public static final int pause=0x7f0a0037;
-        public static final int plot=0x7f0a0039;
+        public static final int play=0x7f0a003c;
+        public static final int plot=0x7f0a003b;
         public static final int refresh=0x7f0a0027;
         public static final int relative=0x7f0a000e;
         public static final int relative_from_bottom=0x7f0a0017;

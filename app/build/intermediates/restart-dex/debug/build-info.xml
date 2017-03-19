@@ -6,8 +6,8 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489875212523"
-    token="7149932331916639357"
+    timestamp="1489910874335"
+    token="8764214017105201242"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -23,61 +23,77 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1489874763825"
+        timestamp="1489908956796"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489875008871"
+        timestamp="1489909978185"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Sakeeb\libmuse_6.0.0\android\examples\TestLibMuseAndroid\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489875212523"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1489910112706"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1489910874335"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Sakeeb\Downloads\museingjusten\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>

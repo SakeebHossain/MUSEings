@@ -5,15 +5,45 @@
 
 package com.choosemuse.example.libmuse;
 
-import java.io.File;
-import java.io.Serializable;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-
-import java.util.concurrent.atomic.AtomicReference;
-
+import android.Manifest;
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.content.ContentResolver;
+import android.content.ContentValues;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.media.MediaPlayer;
+import android.media.MediaRecorder;
+import android.net.Uri;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Looper;
+import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
+import com.android.volley.AuthFailureError;
+import com.android.volley.NetworkResponse;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.VolleyLog;
+import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.choosemuse.libmuse.Accelerometer;
 import com.choosemuse.libmuse.AnnotationData;
 import com.choosemuse.libmuse.ConnectionState;
@@ -37,29 +67,16 @@ import com.choosemuse.libmuse.MuseVersion;
 import com.choosemuse.libmuse.Result;
 import com.choosemuse.libmuse.ResultLevel;
 
-import android.Manifest;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.ListFragment;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.os.Bundle;
-import android.os.Environment;
-import android.os.Looper;
-import android.os.Handler;
-import android.util.Log;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.Spinner;
-import android.widget.TextView;
-import android.bluetooth.BluetoothAdapter;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+import java.io.File;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * This example will illustrate how to connect to a Muse headband,
@@ -83,8 +100,17 @@ import android.support.v4.content.ContextCompat;
  * 8. To disconnect from the headband, press "Disconnect"
  */
 public class MainActivity extends Activity implements OnClickListener {
+    String[] perms = {"android.permission.RECORD_AUDIO", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE"};
+    String fileName = "";
+    String fileDir = "";
+    int permsRequestCode = 200;
 
-//    StringBuilder dataLog = new StringBuilder();
+    //    StringBuilder dataLog = new StringBuilder();
+MediaRecorder recorder;
+    File audiofile = null;
+    static final String TAG1 = "MediaRecording";
+    Button startButton,stopButton;
+
     List<Float> dataLog = new ArrayList<>();
     ArrayList<String> dataLog1 = new ArrayList<>();
 
@@ -246,6 +272,8 @@ public class MainActivity extends Activity implements OnClickListener {
             dataLog.clear();
 
 
+
+
         } else if (v.getId() == R.id.connect) {
 
             // The user has pressed the "Connect" button to connect to
@@ -285,11 +313,15 @@ public class MainActivity extends Activity implements OnClickListener {
 
         } else if (v.getId() == R.id.disconnect) {
 
-            // The user has pressed the "Disconnect" button.
-            // Disconnect from the selected Muse.
-            if (muse != null) {
-                muse.disconnect();
+            MediaPlayer mediaPlayer = new MediaPlayer();
+            try {
+                mediaPlayer.setDataSource(fileDir);
+                mediaPlayer.prepare();
+
+            } catch (IOException e) {
+                e.printStackTrace();
             }
+            mediaPlayer.start();
 
         } else if (v.getId() == R.id.pause) {
 
@@ -311,8 +343,79 @@ public class MainActivity extends Activity implements OnClickListener {
                 floats[i] = dataLog.get(i);
             }
 
+
+            // POSTREQS ---------
+
+            //convert floats array to a long string
+            StringBuilder sb = new StringBuilder();
+            for (float f: floats) {
+                Float ff = (Float) f;
+                sb.append((String) ff.toString() + ",");
+            }
+
+
+
+            RequestQueue requestQueue = Volley.newRequestQueue(this);
+            String URL = "https://obscure-oasis-37920.herokuapp.com/users";
+            JSONObject jsonBody = new JSONObject();
+            try {
+                jsonBody.put("username", "ROSE5");
+                jsonBody.put("data", sb.toString().substring(0, sb.length()-1));
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            final String requestBody = jsonBody.toString();
+            Log.d(requestBody, requestBody);
+
+            StringRequest stringRequest = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    Log.d("VOLLEY", response);
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Log.d("VOLLEY", error.toString());
+                }
+            }) {
+                @Override
+                public String getBodyContentType() {
+                    return "application/json; charset=utf-8";
+                }
+
+                @Override
+                public byte[] getBody() throws AuthFailureError {
+                    try {
+                        return requestBody == null ? null : requestBody.getBytes("utf-8");
+                    } catch (UnsupportedEncodingException uee) {
+                        VolleyLog.wtf("Unsupported Encoding while trying to get the bytes of %s using %s", requestBody, "utf-8");
+                        return null;
+                    }
+                }
+
+                @Override
+                protected Response<String> parseNetworkResponse(NetworkResponse response) {
+                    String responseString = "";
+                    if (response != null) {
+                        responseString = String.valueOf(response.statusCode);
+                        // can get more details such as response.headers
+                    }
+                    return Response.success(responseString, HttpHeaderParser.parseCacheHeaders(response));
+                }
+            };
+
+            requestQueue.add(stringRequest);
+
+
+            // ---------------------------
+
+
+
+            // pass the data
             Intent goToNextActivity = new Intent(getApplicationContext(), SimpleXYPlotActivity.class);
             goToNextActivity.putExtra("dataLog",floats);
+            goToNextActivity.putExtra("fileDir",this.fileDir);
             MainActivity.this.startActivity(goToNextActivity);
         }
     }
@@ -332,6 +435,10 @@ public class MainActivity extends Activity implements OnClickListener {
      * not be discovered and a SecurityException will be thrown.
      */
     private void ensurePermissions() {
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            requestPermissions(perms, permsRequestCode);
+        }
 
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)
@@ -515,6 +622,8 @@ public class MainActivity extends Activity implements OnClickListener {
         pauseButton.setOnClickListener(this);
         Button viewGraphButton = (Button) findViewById(R.id.view_graph);
         viewGraphButton.setOnClickListener(this);
+        startButton = (Button) findViewById(R.id.button1);
+        stopButton = (Button) findViewById(R.id.button2);
 
         spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
@@ -770,4 +879,64 @@ public class MainActivity extends Activity implements OnClickListener {
             activityRef.get().receiveMuseArtifactPacket(p, muse);
         }
     }
+
+    public void startRecording(View view) throws IOException {
+        startButton.setEnabled(false);
+        stopButton.setEnabled(true);
+        //Creating file
+        File dir = Environment.getExternalStorageDirectory();
+        try {
+            audiofile = File.createTempFile("sound", ".3gp", dir);
+            fileName = audiofile.getName().toString();
+            this.fileDir = audiofile.getAbsolutePath();
+
+        } catch (IOException e) {
+            Log.e(TAG, "external storage access error");
+            return;
+        }
+        //Creating MediaRecorder and specifying audio source, output format, encoder & output format
+        recorder = new MediaRecorder();
+        recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+        recorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
+        recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+        recorder.setOutputFile(audiofile.getAbsolutePath());
+        recorder.prepare();
+        recorder.start();
+    }
+
+    public void stopRecording(View view) {
+        startButton.setEnabled(true);
+        stopButton.setEnabled(false);
+        //stopping recorder
+        recorder.stop();
+        recorder.release();
+        //after stopping the recorder, create the sound file and add it to media library.
+        addRecordingToMediaLibrary();
+    }
+
+    protected void addRecordingToMediaLibrary() {
+        //creating content values of size 4
+        ContentValues values = new ContentValues(4);
+        long current = System.currentTimeMillis();
+        values.put(MediaStore.Audio.Media.TITLE, "audio" + audiofile.getName());
+        values.put(MediaStore.Audio.Media.DATE_ADDED, (int) (current / 1000));
+        values.put(MediaStore.Audio.Media.MIME_TYPE, "audio/3gpp");
+        values.put(MediaStore.Audio.Media.DATA, audiofile.getAbsolutePath());
+
+        this.fileDir = audiofile.getAbsolutePath();
+
+        //creating content resolver and storing it in the external content uri
+        ContentResolver contentResolver = getContentResolver();
+        Uri base = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
+        Uri newUri = contentResolver.insert(base, values);
+
+        //sending broadcast message to scan the media file so that it can be available
+        sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, newUri));
+        Toast.makeText(this, "Added File " + newUri, Toast.LENGTH_LONG).show();
+    }
+
+
 }
+
+
+

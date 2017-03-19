@@ -1,7 +1,7 @@
-#Sat Mar 18 14:15:36 EDT 2017
-base.0=C\:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ae9a2bcb1eb9196f43e1c17880b67d278b1416d7
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d031ef84c63c812ce6b0d7a2634b69fceb0cdb1c\\classes.dex
-base.1=C\:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d031ef84c63c812ce6b0d7a2634b69fceb0cdb1c
-file.0=C\:\\Users\\Sakeeb\\libmuse_6.0.0\\android\\examples\\TestLibMuseAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ae9a2bcb1eb9196f43e1c17880b67d278b1416d7\\classes.dex
+#Sun Mar 19 04:07:55 EDT 2017
+base.0=C\:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fda07f9bdda8914f190c4d7754924d45e4de75c8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f0ee015543850a7e93099d22d22ced769ce2918e\\classes.dex
+base.1=C\:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f0ee015543850a7e93099d22d22ced769ce2918e
+file.0=C\:\\Users\\Sakeeb\\Downloads\\museingjusten\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fda07f9bdda8914f190c4d7754924d45e4de75c8\\classes.dex
