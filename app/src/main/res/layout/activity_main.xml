@@ -43,8 +43,30 @@
 			android:layout_height="40dp"
 			android:background="@color/off_white"
 			android:backgroundTint="@color/off_white"
-			android:text="@string/disconnect" />
+			android:text="Play" />
 	</LinearLayout>
+
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:weightSum="1">
+
+		<EditText
+			android:id="@+id/textBox"
+			android:layout_width="229dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.56"
+			android:ems="10"
+			android:hint="User Name"
+			android:inputType="text" />
+
+		<Button
+			android:id="@+id/send"
+			android:layout_width="88dp"
+			android:layout_height="wrap_content"
+			android:text="Button" />
+	</LinearLayout>>
+
+
 
 	<TextView
 		android:id="@+id/con_status"
@@ -196,7 +218,7 @@
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="32dp"
-		android:text="@string/version"
+		android:text="Mood Rate :"
 		android:textSize="16sp" />
 
 	<TextView

@@ -31,6 +31,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -103,6 +105,7 @@ public class MainActivity extends Activity implements OnClickListener {
     String[] perms = {"android.permission.RECORD_AUDIO", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE"};
     String fileName = "";
     String fileDir = "";
+    String textBoxText ="";
     int permsRequestCode = 200;
 
     //    StringBuilder dataLog = new StringBuilder();
@@ -353,13 +356,15 @@ MediaRecorder recorder;
                 sb.append((String) ff.toString() + ",");
             }
 
+            EditText textBox = (EditText)findViewById(R.id.textBox);
+            textBoxText = textBox.getText().toString();
 
 
             RequestQueue requestQueue = Volley.newRequestQueue(this);
             String URL = "https://obscure-oasis-37920.herokuapp.com/users";
             JSONObject jsonBody = new JSONObject();
             try {
-                jsonBody.put("username", "ROSE5");
+                jsonBody.put("username", textBoxText);
                 jsonBody.put("data", sb.toString().substring(0, sb.length()-1));
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -372,6 +377,7 @@ MediaRecorder recorder;
                 @Override
                 public void onResponse(String response) {
                     Log.d("VOLLEY", response);
+                    Log.d("VOLLEY", textBoxText);
                 }
             }, new Response.ErrorListener() {
                 @Override
@@ -417,6 +423,16 @@ MediaRecorder recorder;
             goToNextActivity.putExtra("dataLog",floats);
             goToNextActivity.putExtra("fileDir",this.fileDir);
             MainActivity.this.startActivity(goToNextActivity);
+
+        }
+        else if (v.getId() == R.id.send) {
+
+            EditText textBox = (EditText)findViewById(R.id.textBox);
+            textBoxText = textBox.getText().toString();
+
+
+
+
         }
     }
 
@@ -624,6 +640,9 @@ MediaRecorder recorder;
         viewGraphButton.setOnClickListener(this);
         startButton = (Button) findViewById(R.id.button1);
         stopButton = (Button) findViewById(R.id.button2);
+        Button sendButton = (Button) findViewById(R.id.send) ;
+        sendButton.setOnClickListener(this);
+        EditText textBox = (EditText) findViewById(R.id.textBox);
 
         spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
@@ -690,7 +709,12 @@ MediaRecorder recorder;
 
         dataLog.add(Float.valueOf(elem1.getText().toString()));
         TextView version = (TextView)findViewById(R.id.version);
-        version.setText(dataLog.toString());
+        if (dataLog.size() < 9) {
+            version.setText(dataLog.subList(0, dataLog.size()).toString());
+        } else {
+             version.setText(dataLog.subList(dataLog.size()-8, dataLog.size()).toString());
+        }
+
 
 
         TextView elem2 = (TextView)findViewById(R.id.elem2);

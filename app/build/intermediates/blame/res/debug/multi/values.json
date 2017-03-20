@@ -1396,5 +1396,1403 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 11,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 11,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endLine": 17,
+                    "endColumn": 11,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endLine": 17,
+                        "endColumn": 11,
+                        "endOffset": 715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endLine": 22,
+                    "endColumn": 11,
+                    "endOffset": 903
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 720,
+                        "endLine": 22,
+                        "endColumn": 11,
+                        "endOffset": 903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 908,
+                    "endLine": 30,
+                    "endColumn": 11,
+                    "endOffset": 1298
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 908,
+                        "endLine": 30,
+                        "endColumn": 11,
+                        "endOffset": 1298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1303,
+                    "endLine": 38,
+                    "endColumn": 11,
+                    "endOffset": 1691
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1303,
+                        "endLine": 38,
+                        "endColumn": 11,
+                        "endOffset": 1691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1696,
+                    "endLine": 43,
+                    "endColumn": 11,
+                    "endOffset": 1878
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1696,
+                        "endLine": 43,
+                        "endColumn": 11,
+                        "endOffset": 1878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 1883,
+                    "endLine": 54,
+                    "endColumn": 11,
+                    "endOffset": 2332
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1883,
+                        "endLine": 54,
+                        "endColumn": 11,
+                        "endOffset": 2332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2337,
+                    "endLine": 59,
+                    "endColumn": 11,
+                    "endOffset": 2514
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2337,
+                        "endLine": 59,
+                        "endColumn": 11,
+                        "endOffset": 2514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 2519,
+                    "endLine": 67,
+                    "endColumn": 11,
+                    "endOffset": 2903
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2519,
+                        "endLine": 67,
+                        "endColumn": 11,
+                        "endOffset": 2903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 2908,
+                    "endLine": 75,
+                    "endColumn": 11,
+                    "endOffset": 3219
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2908,
+                        "endLine": 75,
+                        "endColumn": 11,
+                        "endOffset": 3219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 3224,
+                    "endLine": 83,
+                    "endColumn": 11,
+                    "endOffset": 3606
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3224,
+                        "endLine": 83,
+                        "endColumn": 11,
+                        "endOffset": 3606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 3611,
+                    "endLine": 88,
+                    "endColumn": 11,
+                    "endOffset": 3787
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 3611,
+                        "endLine": 88,
+                        "endColumn": 11,
+                        "endOffset": 3787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 3792,
+                    "endLine": 99,
+                    "endColumn": 11,
+                    "endOffset": 4242
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 3792,
+                        "endLine": 99,
+                        "endColumn": 11,
+                        "endOffset": 4242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4247,
+                    "endLine": 104,
+                    "endColumn": 11,
+                    "endOffset": 4425
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4247,
+                        "endLine": 104,
+                        "endColumn": 11,
+                        "endOffset": 4425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4430,
+                    "endLine": 112,
+                    "endColumn": 11,
+                    "endOffset": 4815
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4430,
+                        "endLine": 112,
+                        "endColumn": 11,
+                        "endOffset": 4815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4820,
+                    "endLine": 117,
+                    "endColumn": 11,
+                    "endOffset": 5002
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 4820,
+                        "endLine": 117,
+                        "endColumn": 11,
+                        "endOffset": 5002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5007,
+                    "endLine": 122,
+                    "endColumn": 11,
+                    "endOffset": 5188
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5007,
+                        "endLine": 122,
+                        "endColumn": 11,
+                        "endOffset": 5188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5193,
+                    "endLine": 130,
+                    "endColumn": 11,
+                    "endOffset": 5576
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5193,
+                        "endLine": 130,
+                        "endColumn": 11,
+                        "endOffset": 5576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5581,
+                    "endLine": 135,
+                    "endColumn": 11,
+                    "endOffset": 5758
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 5581,
+                        "endLine": 135,
+                        "endColumn": 11,
+                        "endOffset": 5758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 5763,
+                    "endLine": 140,
+                    "endColumn": 11,
+                    "endOffset": 5926
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 5763,
+                        "endLine": 140,
+                        "endColumn": 11,
+                        "endOffset": 5926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 5931,
+                    "endLine": 145,
+                    "endColumn": 11,
+                    "endOffset": 6092
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 5931,
+                        "endLine": 145,
+                        "endColumn": 11,
+                        "endOffset": 6092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6097,
+                    "endLine": 150,
+                    "endColumn": 11,
+                    "endOffset": 6259
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 6097,
+                        "endLine": 150,
+                        "endColumn": 11,
+                        "endOffset": 6259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6264,
+                    "endLine": 155,
+                    "endColumn": 11,
+                    "endOffset": 6424
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 6264,
+                        "endLine": 155,
+                        "endColumn": 11,
+                        "endOffset": 6424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 6429,
+                    "endLine": 162,
+                    "endColumn": 11,
+                    "endOffset": 6657
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 6429,
+                        "endLine": 162,
+                        "endColumn": 11,
+                        "endOffset": 6657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 6662,
+                    "endLine": 167,
+                    "endColumn": 11,
+                    "endOffset": 6843
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 6662,
+                        "endLine": 167,
+                        "endColumn": 11,
+                        "endOffset": 6843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 6848,
+                    "endLine": 172,
+                    "endColumn": 11,
+                    "endOffset": 7047
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 6848,
+                        "endLine": 172,
+                        "endColumn": 11,
+                        "endOffset": 7047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 7052,
+                    "endLine": 183,
+                    "endColumn": 11,
+                    "endOffset": 7506
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 7052,
+                        "endLine": 183,
+                        "endColumn": 11,
+                        "endOffset": 7506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 7511,
+                    "endLine": 188,
+                    "endColumn": 11,
+                    "endOffset": 7693
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 7511,
+                        "endLine": 188,
+                        "endColumn": 11,
+                        "endOffset": 7693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 7698,
+                    "endLine": 196,
+                    "endColumn": 11,
+                    "endOffset": 8087
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 7698,
+                        "endLine": 196,
+                        "endColumn": 11,
+                        "endOffset": 8087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 8092,
+                    "endLine": 204,
+                    "endColumn": 11,
+                    "endOffset": 8479
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 4,
+                        "startOffset": 8092,
+                        "endLine": 204,
+                        "endColumn": 11,
+                        "endOffset": 8479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 8484,
+                    "endLine": 209,
+                    "endColumn": 11,
+                    "endOffset": 8665
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 8484,
+                        "endLine": 209,
+                        "endColumn": 11,
+                        "endOffset": 8665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 8670,
+                    "endLine": 213,
+                    "endColumn": 11,
+                    "endOffset": 8824
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 8670,
+                        "endLine": 213,
+                        "endColumn": 11,
+                        "endOffset": 8824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 8829,
+                    "endColumn": 39,
+                    "endOffset": 8864
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 214,
+                        "startColumn": 4,
+                        "startOffset": 8829,
+                        "endColumn": 39,
+                        "endOffset": 8864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 8869,
+                    "endColumn": 42,
+                    "endOffset": 8907
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 8869,
+                        "endColumn": 42,
+                        "endOffset": 8907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 8912,
+                    "endColumn": 38,
+                    "endOffset": 8946
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 8912,
+                        "endColumn": 38,
+                        "endOffset": 8946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 8951,
+                    "endColumn": 50,
+                    "endOffset": 8997
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 8951,
+                        "endColumn": 50,
+                        "endOffset": 8997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 9002,
+                    "endColumn": 39,
+                    "endOffset": 9037
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 9002,
+                        "endColumn": 39,
+                        "endOffset": 9037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 9042,
+                    "endColumn": 40,
+                    "endOffset": 9078
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 9042,
+                        "endColumn": 40,
+                        "endOffset": 9078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 15369,
+                    "endColumn": 57,
+                    "endOffset": 15422
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 15427,
+                    "endColumn": 55,
+                    "endOffset": 15478
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 15483,
+                    "endColumn": 53,
+                    "endOffset": 15532
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 493,
+                        "endColumn": 53,
+                        "endOffset": 542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 15537,
+                    "endColumn": 52,
+                    "endOffset": 15585
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 52,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 15590,
+                    "endColumn": 43,
+                    "endOffset": 15629
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 43,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 15634,
+                    "endColumn": 51,
+                    "endOffset": 15681
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 641,
+                        "endColumn": 51,
+                        "endOffset": 688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 15686,
+                    "endColumn": 43,
+                    "endOffset": 15725
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 43,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 15730,
+                    "endColumn": 49,
+                    "endOffset": 15775
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 49,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 15780,
+                    "endColumn": 37,
+                    "endOffset": 15813
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 800,
+                        "endColumn": 37,
+                        "endOffset": 833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 15818,
+                    "endColumn": 41,
+                    "endOffset": 15855
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 450,
+                        "endColumn": 41,
+                        "endOffset": 487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 15860,
+                    "endColumn": 52,
+                    "endOffset": 15908
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 52,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 15913,
+                    "endColumn": 40,
+                    "endOffset": 15949
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 40,
+                        "endOffset": 444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 15954,
+                    "endColumn": 56,
+                    "endOffset": 16006
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 694,
+                        "endColumn": 56,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 16011,
+                    "endColumn": 53,
+                    "endOffset": 16060
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 839,
+                        "endColumn": 53,
+                        "endOffset": 888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 16065,
+                    "endColumn": 46,
+                    "endOffset": 16107
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 752,
+                        "endColumn": 46,
+                        "endOffset": 794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 16112,
+                    "endColumn": 241,
+                    "endOffset": 16349
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 976,
+                        "endColumn": 241,
+                        "endOffset": 1213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 16354,
+                    "endColumn": 78,
+                    "endOffset": 16428
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 896,
+                        "endColumn": 78,
+                        "endOffset": 970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 16433,
+                    "endColumn": 69,
+                    "endOffset": 16498
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1219,
+                        "endColumn": 69,
+                        "endOffset": 1284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 16503,
+                    "endColumn": 43,
+                    "endOffset": 16542
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 363,
+                        "endColumn": 43,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 16547,
+                    "endColumn": 53,
+                    "endOffset": 16596
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 257,
+                        "endColumn": 53,
+                        "endOffset": 306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 16601,
+                    "endColumn": 45,
+                    "endOffset": 16642
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 594,
+                        "endColumn": 45,
+                        "endOffset": 635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 16647,
+                    "endColumn": 44,
+                    "endOffset": 16687
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 548,
+                        "endColumn": 44,
+                        "endOffset": 588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 16692,
+                    "endLine": 284,
+                    "endColumn": 12,
+                    "endOffset": 18698
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 15369,
+                        "endLine": 262,
+                        "endColumn": 12,
+                        "endOffset": 17375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 18703,
+                    "endLine": 302,
+                    "endColumn": 12,
+                    "endOffset": 19776
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 17380,
+                        "endLine": 280,
+                        "endColumn": 12,
+                        "endOffset": 18453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 19781,
+                    "endLine": 320,
+                    "endColumn": 12,
+                    "endOffset": 20863
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 18458,
+                        "endLine": 298,
+                        "endColumn": 12,
+                        "endOffset": 19540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 20868,
+                    "endLine": 327,
+                    "endColumn": 12,
+                    "endOffset": 21154
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 21159,
+                    "endLine": 330,
+                    "endColumn": 12,
+                    "endOffset": 21314
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\Documents\\Development\\Github\\MUSEings\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 21319,
+                    "endLine": 348,
+                    "endColumn": 12,
+                    "endOffset": 22191
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 19545,
+                        "endLine": 316,
+                        "endColumn": 12,
+                        "endOffset": 20417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 22196,
+                    "endLine": 355,
+                    "endColumn": 12,
+                    "endOffset": 22499
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 20422,
+                        "endLine": 323,
+                        "endColumn": 12,
+                        "endOffset": 20725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 22504,
+                    "endLine": 362,
+                    "endColumn": 12,
+                    "endOffset": 22868
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 20730,
+                        "endLine": 330,
+                        "endColumn": 12,
+                        "endOffset": 21094
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 22873,
+                    "endLine": 369,
+                    "endColumn": 12,
+                    "endOffset": 23238
+                },
+                "from": {
+                    "file": "C:\\Users\\Sakeeb\\.android\\build-cache\\10fa4b3ef3990f63b50c14a6aee0514ecd07ae62\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 21099,
+                        "endLine": 337,
+                        "endColumn": 12,
+                        "endOffset": 21464
+                    }
+                }
+            }
+        ]
     }
 ]

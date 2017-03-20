@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Sakeeb\Downloads\museingjusten\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Sakeeb\Downloads\museingjusten\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Sakeeb\Documents\Development\Github\MUSEings\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Sakeeb\Documents\Development\Github\MUSEings\app\src\debug\shaders"/></dataSet></merger>
